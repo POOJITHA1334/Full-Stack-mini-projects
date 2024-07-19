@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Rating Website</h1>
+        <div class="form-container">
+            <input type="text" id="movieName" placeholder="Enter movie name">
+            <input type="number" id="movieRating" placeholder="Enter rating (1-5)" min="1" max="5">
+            <button onclick="addMovie()">Add Movie</button>
+        </div>
+        <div class="movie-list">
+            <h2>Movie List</h2>
+            <ul id="movies"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
